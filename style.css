@@ -282,7 +282,7 @@ body.nav-active {
   opacity: 1;
 }
 
-/*-----------------------------------*\
+/*-----------------------------------*
     #HEADER
   \*-----------------------------------*/
 
@@ -416,8 +416,10 @@ body.nav-active {
 }
 
 .front-img {
-  height: 420px;
-  width: 420px;
+  height: 320px;
+  width: 320px;
+  min-width: fit-content;
+  min-height: fit-content;
 }
 
 .hero .container {
