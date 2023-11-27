@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>CESA | Ramdevbaba college of engineering</title>
+    <meta name="title" content="CESA | Ramdevbaba college of engineering" />
+    <meta
+      name="description"
+      content="CESA | Student Association of Department Of civil Shri Ramdevbaba College of Engineering and Management"
+    />
+
+    <!-- 
+    - favicon
+  -->
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./Assets/Logo.jpg" />
+    <link rel="preload" as="image" href="./Assets/Logo.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo"> <h2>CESA</h2> </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./Assets/cesa.jpg"
+                width="64"
+                height="24"
+                alt="start img"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Our Team</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Events</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="nishantthakre16@gmail.com" class="contact-link"
+              >nishantthakre16@gmail.com</a
+            >
+
+            <a href="tel:6969696969" class="contact-link">6969696969</a>
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="./Assets/hero.svg"
+                style="border-radius: 50%"
+                alt="cesa"
+                class="w-100 front-img"
+                data-reveal="top"
+              />
+            </figure>
+
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s"
+              >
+                CIVIL ENGINEERING STUDENT ASSOCIATION
+              </h1>
+
+              <p
+                class="section-text"
+                data-reveal="top"
+                data-reveal-delay="0.75s"
+              >
+                CESA Civil Engineering Students' Association Shri Ramdeobaba
+                College of Engineering and Management Nagpur.
+              </p>
+
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                <a href="#" class="btn btn-primary">Upcoming Events</a>
+
+                <a href="#" class="btn btn-secondary">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" aria-label="about">
+          <div class="container">
+            <div class="wrapper">
+              <div data-reveal="left">
+                <h2 class="h2 section-title">About Us</h2>
+
+                <p class="section-text">
+                  We are committed to shaping leaders in the field of civil
+                  engineering. Through mentorship programs, networking events,
+                  and career development workshops, we aim to provide our
+                  members with the skills and knowledge necessary to excel in
+                  their professional journeys. The Committee is a stepping stone
+                  towards a successful and fulfilling career in civil
+                  engineering.
+                </p>
+              </div>
+              <!-- *Adding of new events in list -->
+              <!-- <ul class="progress-list" data-reveal="right">
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Web Design</p>
+
+                    <span class="span">100 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 100%; background-color: #c7b1dd"
+                    ></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Mobile Design</p>
+
+                    <span class="span">80 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 80%; background-color: #8caeec"
+                    ></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Development</p>
+
+                    <span class="span">85 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 85%; background-color: #b0d4c1"
+                    ></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>SEO</p>
+
+                    <span class="span">90 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #e3a6b6"
+                    ></div>
+                  </div>
+                </li>
+              </ul> -->
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGmFB1W471bJWNC2Mutah4smGopkOOw5GIdKdl6Gl3Rvl4h-XwWycZaQRXxj9faXnF-Nc&usqp=CAU"
+                alt="college"
+                width="400"
+                height="350"
+              />
+            </div>
+
+            <ul class="grid-list">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="./Assets/cesa.jpg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="cesa"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">CESA</h3>
+
+                  <p class="card-text">Bhupender jogi</p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="https://source.unsplash.com/random?landscape"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="Techno Fab"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Techno Fab</h3>
+
+                  <p class="card-text">Khatti toffee</p>
+                </div>
+              </li>
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="https://source.unsplash.com/random?landscape"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="Aakriti"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">Aakriti</h3>
+
+                  <p class="card-text">Aayein??</p>
+                </div>
+              </li>
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="./Assets/neev.png"
+                      style="height: 52px"
+                      width="58"
+                      loading="lazy"
+                      alt="neev"
+                    />
+                  </div>
+
+                  <h3 class="h4 card-title">NEEV</h3>
+
+                  <p class="card-text">Baigann</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        * Events
+      -->
+
+        <section class="section project" aria-labelledby="project-label">
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label">
+                  Latest Events
+                </h2>
+
+                <p class="section-text">Check out latest Events Memories.</p>
+              </div>
+
+              <a href="#" class="btn btn-secondary">See All Photos</a>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="project-card project-card-1"
+                  style="background-color: #f8f5fb"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #a07cc5">CESA</p>
+
+                    <h3 class="h3 card-title">Random Clicks</h3>
+
+                    <p class="card-text">
+                      Maecenas faucibus mollis interdum sed posuere consectetur
+                      est at lobortis. Scelerisque id ligula porta felis euismod
+                      semper. Fusce dapibus tellus cursus.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #a07cc5">
+                      <span class="span">See Photos</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner img-cls" data-reveal="right">
+                    <img
+                      src="https://plus.unsplash.com/premium_photo-1700316993751-e79a424660dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8"
+                      loading="lazy"
+                      height="260"
+                      width="400"
+                      alt="galleries"
+                      class="w-100 galleries"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-2"
+                  style="background-color: #f1f5fd"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #3f78e0">know more</p>
+
+                    <h3 class="h3 card-title">Our Sponsorships</h3>
+
+                    <p class="card-text">
+                      Maecenas faucibus mollis interdum sed posuere consectetur
+                      est at lobortis. Scelerisque id ligula porta felis euismod
+                      semper. Fusce dapibus tellus cursus.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #3f78e0">
+                      <span class="span">See sponsors</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="https://source.unsplash.com/random?landscape"
+                      width="600"
+                      height="367"
+                      loading="lazy"
+                      alt="sponsors"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-2"
+                  style="background-color: #f1f5fd"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #3f78e0">know more</p>
+
+                    <h3 class="h3 card-title">Management Committee</h3>
+
+                    <p class="card-text">
+                      Maecenas faucibus mollis interdum sed posuere consectetur
+                      est at lobortis. Scelerisque id ligula porta felis euismod
+                      semper. Fusce dapibus tellus cursus.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #3f78e0">
+                      <span class="span">See Committee</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVhbXxlbnwwfHwwfHx8MA%3D%3D"
+                      loading="lazy"
+                      alt="Committee"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-3"
+                  style="background-color: #f5faf7"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #7cb798">
+                      Our Association
+                    </p>
+
+                    <h3 class="h3 card-title">Guidance</h3>
+
+                    <p class="card-text">
+                      Maecenas faucibus mollis interdum sed posuere porta
+                      consectetur cursus porta lobortis. Scelerisque id ligula
+                      felis.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #7cb798">
+                      <span class="span">learn more</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner fig-img" data-reveal="right">
+                    <img
+                      src="https://source.unsplash.com/random?landscape"
+                      width="500"
+                      height="320"
+                      loading="lazy"
+                      alt="Guidance"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #fcf4f6"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #d16b86">Our Vision</p>
+
+                    <h3 class="h3 card-title">Vision</h3>
+
+                    <p class="card-text">
+                      Maecenas faucibus mollis interdum sed posuere consectetur
+                      est at lobortis. Scelerisque id ligula porta felis euismod
+                      semper.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #d16b86">
+                      <span class="span">learn more</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner vm-img" data-reveal="right">
+                    <img
+                      src="https://source.unsplash.com/random?space"
+                      loading="lazy"
+                      alt="Mission"
+                      class="w-100 vnm-img"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #fcf4f6"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #d16b86">Our Mission</p>
+
+                    <h3 class="h3 card-title">Mission</h3>
+
+                    <p class="card-text">
+                      Maecenas faucibus mollis interdum sed posuere consectetur
+                      est at lobortis. Scelerisque id ligula porta felis euismod
+                      semper.
+                    </p>
+
+                    <a href="#" class="btn-text" style="color: #d16b86">
+                      <span class="span">learn more</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner vm-img" data-reveal="right">
+                    <img
+                      src="https://source.unsplash.com/random?landscape"
+                      loading="lazy"
+                      alt="Mission"
+                      class="w-100 vnm-img"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section class="section contact" aria-label="contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content" data-reveal="left">
+                <div class="card-icon">
+                  <img
+                    src="./Assets/cesa.jpg"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                    alt="envelop icon"
+                  />
+                </div>
+
+                <h2 class="h2 section-title">
+                  Student Committee of Civil Engineering invites you to join us
+                </h2>
+
+                <p class="section-text">
+                  Embrace the challenge, be part of the change, and let's
+                  construct a legacy that stands the test of time. Welcome to a
+                  community that believes in the power of engineering to shape a
+                  better tomorrow.
+                </p>
+              </div>
+
+              <form action="" class="contact-form" data-reveal="right">
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+
+                  <input
+                    type="email"
+                    name="email_address"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Message *"
+                  required
+                  class="input-field"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© 2023 NemoKamado. All rights reserved.</p>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
